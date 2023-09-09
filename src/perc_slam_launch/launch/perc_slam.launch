@@ -1,0 +1,13 @@
+<launch>
+
+  <include file="$(find zed_wrapper)/launch/zed2.launch"/>
+  
+  <!-- Perception pipeline -->
+  <node pkg="perception_pipeline" type="perception_pipeline.py" name="perception_pipeline" clear_params="true" output="screen"/>
+
+  <!-- RVIZ -->
+  <!-- <node name="rviz_visualizer" pkg="rviz_visualizer" type="rviz_visualizer.py" output="screen" />
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find zed_wrapper)/rviz/zed.rviz" /> -->
+
+ 
+</launch>

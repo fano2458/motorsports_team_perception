@@ -1,0 +1,8 @@
+prefix=/home/fano/Desktop/motorsports/motorsports_team_perception/devel
+
+Name: perc_slam_launch
+Description: Description of perc_slam_launch
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

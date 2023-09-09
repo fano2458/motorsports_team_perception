@@ -722,6 +722,24 @@ message_runtime_DIR:PATH=/opt/ros/noetic/share/message_runtime/cmake
 //The directory containing a CMake configuration file for nodelet.
 nodelet_DIR:PATH=/opt/ros/noetic/share/nodelet/cmake
 
+//Value Computed by CMake
+perc_slam_launch_BINARY_DIR:STATIC=/home/fano/Desktop/motorsports/motorsports_team_perception/build/perc_slam_launch
+
+//Value Computed by CMake
+perc_slam_launch_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+perc_slam_launch_SOURCE_DIR:STATIC=/home/fano/Desktop/motorsports/motorsports_team_perception/src/perc_slam_launch
+
+//Value Computed by CMake
+perception_pipeline_BINARY_DIR:STATIC=/home/fano/Desktop/motorsports/motorsports_team_perception/build/perception_pipeline
+
+//Value Computed by CMake
+perception_pipeline_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+perception_pipeline_SOURCE_DIR:STATIC=/home/fano/Desktop/motorsports/motorsports_team_perception/src/perception_pipeline
+
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/noetic/share/pluginlib/cmake
 
@@ -754,6 +772,15 @@ rospy_DIR:PATH=/opt/ros/noetic/share/rospy/cmake
 
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/opt/ros/noetic/share/rostime/cmake
+
+//Value Computed by CMake
+rviz_visualizer_BINARY_DIR:STATIC=/home/fano/Desktop/motorsports/motorsports_team_perception/build/rviz_visualizer
+
+//Value Computed by CMake
+rviz_visualizer_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+rviz_visualizer_SOURCE_DIR:STATIC=/home/fano/Desktop/motorsports/motorsports_team_perception/src/rviz_visualizer
 
 //The directory containing a CMake configuration file for sensor_msgs.
 sensor_msgs_DIR:PATH=/opt/ros/noetic/share/sensor_msgs/cmake
@@ -995,7 +1022,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
