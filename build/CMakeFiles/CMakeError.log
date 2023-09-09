@@ -59,3 +59,22 @@ make: *** [Makefile:127: cmTC_34356/fast] Error 2
 
 
 
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/fano/Desktop/motorsports/motorsports_team_perception/build/CMakeFiles/CMakeScratch/TryCompile-uxxO25
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_94a25/fast && /usr/bin/make  -f CMakeFiles/cmTC_94a25.dir/build.make CMakeFiles/cmTC_94a25.dir/build
+make[1]: Entering directory '/home/fano/Desktop/motorsports/motorsports_team_perception/build/CMakeFiles/CMakeScratch/TryCompile-uxxO25'
+Building C object CMakeFiles/cmTC_94a25.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_94a25.dir/CheckFunctionExists.c.o -c /home/fano/Desktop/motorsports/motorsports_team_perception/build/CMakeFiles/CMakeScratch/TryCompile-uxxO25/CheckFunctionExists.c
+Linking C executable cmTC_94a25
+/home/fano/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94a25.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ CMakeFiles/cmTC_94a25.dir/CheckFunctionExists.c.o -o cmTC_94a25 
+/usr/bin/ld: CMakeFiles/cmTC_94a25.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_94a25.dir/build.make:99: cmTC_94a25] Error 1
+make[1]: Leaving directory '/home/fano/Desktop/motorsports/motorsports_team_perception/build/CMakeFiles/CMakeScratch/TryCompile-uxxO25'
+make: *** [Makefile:127: cmTC_94a25/fast] Error 2
+
+
+

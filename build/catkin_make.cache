@@ -1,2 +1,2 @@
-
--DCATKIN_DEVEL_PREFIX=/home/fano/Desktop/motorsports/motorsports_team_perception/devel -DCMAKE_INSTALL_PREFIX=/home/fano/Desktop/motorsports/motorsports_team_perception/install -G Unix Makefiles
+zed-ros-wrapper/zed-ros-interfaces:zed-ros-wrapper/zed_nodelets:zed-ros-wrapper/zed_ros:zed-ros-wrapper/zed_wrapper
+-DCMAKE_BUILD_TYPE=Release -DCATKIN_DEVEL_PREFIX=/home/fano/Desktop/motorsports/motorsports_team_perception/devel -DCMAKE_INSTALL_PREFIX=/home/fano/Desktop/motorsports/motorsports_team_perception/install -G Unix Makefiles

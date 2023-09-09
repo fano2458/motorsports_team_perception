@@ -1,0 +1,8 @@
+prefix=/home/fano/Desktop/motorsports/motorsports_team_perception/devel
+
+Name: zed_wrapper
+Description: Description of zed_wrapper
+Version: 3.5.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp rosconsole zed_nodelets
