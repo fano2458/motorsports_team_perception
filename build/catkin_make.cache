@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/fano/Desktop/motorsports/motorsports_team_perception/devel -DCMAKE_INSTALL_PREFIX=/home/fano/Desktop/motorsports/motorsports_team_perception/install -G Unix Makefiles
